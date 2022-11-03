@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Verdana';
+    font-family: 'lucida sans';
 }
 
 .wrapper {
@@ -36,9 +36,10 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: white;
+    background: whitesmoke;
     z-index: 1;
-    
+    border-bottom: 1px solid black;
+    transition: top 0.5s;
 }
 
 nav ul{
@@ -53,7 +54,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #7895B2;
+    color: brown;
     font-weight: bold;
     text-align: center;
     padding: 0px 16px 0px 16px;
@@ -78,7 +79,7 @@ section {
 .kolom .deskripsi{
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Open Sans';
+    font-family: 'monospace';
     color: black;
 }
 
@@ -93,7 +94,7 @@ h2{
 }
 
 a.tbl-biru{
-    background: #5F9DF7;
+    background: blue;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -103,7 +104,7 @@ a.tbl-biru{
 }
 
 a.tbl-biru:hover{
-    background: #B7C4CF;
+    background: pink;
     text-decoration: none;
 }
 p{
@@ -112,24 +113,14 @@ p{
 }
 
 .imgo{
-    float: left;
+    float: right;
 }
 
-.text1{
-    text-align: justify;
+.text{
+    text-align: right;
     padding: 120px 0px 100px 0px;
-    padding: 0px 0px 0px 50px;
-    padding-top: 200px;
 }
 
-.text2{
-    text-align: justify;
-    padding: 120px 0px 100px 0px;
-    padding: 0px 0px 0px 200px;
-    padding-top: 200px;
-}
-
-.imgo1{
-    float: left;
-    margin-top: 100px;
+footer{
+  font-weight: bold;
 }
